@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <title>Document</title>
+
+    <!-- <link rel="stylesheet" href="css2/reset.css">  -->
+	<!-- <link rel="stylesheet" href="css2/style.css">  -->
+	<!-- <script src="js2/modernizr.js"></script>  -->
+
+</head>
+
+
+
+
+
+
+<body class="body" >
+    <header>
+         
+        <div>
+        <div>
+            <div class="block2">
+        <div class="top-menu">
+            <a class="navbar-logo" href="index.html"><img src="Coat_of_Arms_Omsk_Oblast.svg.png"></a>
+            <ul class="menu-main">
+              
+              <li><a href="admin.html">Администрация</a></li>
+              <li><a href="afisha.html">Афиша</a></li>
+              <li><a href="razvitie.html">Развитие</a></li>
+              <li><a href="novosti.html">Новости</a></li>
+            </ul>
+          </div>
+        </div>
+        
+          <div class="block1">
+            
+          <nav class="mobile-menu">
+            <div class="navbar_logo1" href="index.html"><img src="Coat_of_Arms_Omsk_Oblast.svg.png"></div>
+            <input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
+            <label for="checkbox" class="mobile-menu__btn"><div class="mobile-menu__icon"></div></label>
+            <div class="mobile-menu__container">
+            <ul class="mobile-menu__list">
+                <li class="mobile-menu__item"><a href="admin.html" class="mobile-menu__link">Администрация</a></li>
+                <li class="mobile-menu__item"><a href="afisha.html" class="mobile-menu__link">Афиша</a></li>
+                <li class="mobile-menu__item"><a href="razvitie.html" class="mobile-menu__link">Развитие</a></li>
+                <li class="mobile-menu__item"><a href="novosti.html" class="mobile-menu__link">Новости</a></li>
+            </ul>
+            </div>
+        </nav>
+    </div>
+        </div>
+    </div>
+    </header>
+    <div></div>
+
+
+
+
+    <!-- <div id="map"></div> -->
+
+
+
+    <!-- <script>
+        function initMap() {
+            var uluru = {lat: 54.990582, lng: 73.369605};
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 11,
+              center: uluru,
+            });
+            var marker = new google.maps.Marker({
+              position: uluru,
+              map: map,
+
+
+
+
+
+            });
+          }
+          </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaLRzriOCOBIIyU9eS1WqAaiFMaQ8Vqww&callback=initMap"
+       
+    ></script> -->
+
+
+
+    <script>
+        
+        
+
+        function initMap() {
+          
+          const uluru = {lat: 54.9896018, lng: 73.3750512};
+         
+          const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 11,
+            center: uluru,
+          });
+          
+
+
+
+
+          
+          const marker = new google.maps.Marker({
+            position: uluru,
+            map: map,
+          });
+        }
+      </script>
+    </head>
+    <body>
+     
+      <div id="map"></div>
+  
+            <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaLRzriOCOBIIyU9eS1WqAaiFMaQ8Vqww&callback=initMap&libraries=&v=weekly"
+        
+      ></script>
+ 
+    <footer>
+        <div class="footer">
+          
+          <div class="d2">
+            <form>
+            <input type="text" placeholder="Искать здесь...">
+            <button type="submit"></button>
+          </form>
+          
+          </div>
+          <div class="q2">
+            <a class="q2"><font face="Moniqa">Омск</font></a>
+          </div>
+        </div>
+        
+      </footer>
+
+</body>
+</html>
